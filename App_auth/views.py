@@ -34,4 +34,4 @@ def login_signup(request):
 
 def logout_view(request):
     logout(request)
-    return HttpResponseRedirect(reverse('App_auth:login-or-signup'))
+    return HttpResponseRedirect(reverse('App_auth:home'))
